@@ -25,16 +25,20 @@ When your localhost or the default one pops up (http://127.0.0.1/5000) use it to
 Go to: http://jsbb.pythonanywhere.com, click on PythonAnywhere on the welcoming message page. Log-in using jsbb as username and Papamama2025 as password, and then click on home/jsbb/drbigproject23_24.py while on Dashboard and run when the script is displayed or click on Files and select the RESTful API server file: drbigproject23_24.py. Update the IP port localhost default 5000 to 5354 as http://127.0.0.1/5354 or any other compatible ESTABLISHED ports, if not a Traceback(most recent call last)error will occur, and the server will not run accordingly. The debug = False while running the RESTful API server on Python Anywhere. I have also includes an ajaxpluscssUNWomen.html, for html webpage script to be run on a local machine browser. See also Consoles MySQL file: jsbb$drProject2324 to access the database called “jsbb$drProject2324”. The tablename is ”drproject2324". Now, CRUD operations can be carried out on Python Anywhere MySQL prompt.
 
                                                 Documentation
+                                                  
                                                   REST API 
 REST stands for Representation State Transfer. It is an architectural approach relating to distributed hypermedia structure. It is widely utilised for building web-based APIs (Application Programming Interfaces). REST does not fit on a protocol framework as HTTP. REST has six guiding principles including Uniforme Interface, Client-Server, Stateless, Cacheable, Layered Systems and Code on Demand. Refer to REST API Tutorial for further details on each principle [https://restfulapi.net/].
                                                   Flask
+                                                  
 Flask is a web framework and Python module dedicating for the development of web application. There is no ORM (Object Relational Manager) related to it, as it is a micro framework. A Web Framework or Web Application encapsulates libraries and packages relevant for the writing of applications regardless of protocol or thread management. Armin Ronacher, Pooco (an international Python Team) leader developed Flask based on Werkzeug, WSGI (Web Server Gateway Interface), and Jinja2 template engine [https://pythonbasics.org/what-is-flask-python/].
 Flask facilitates the execution of the framework with a development server via a run command. An interactive debugger is available on Flask and enables to reload in case of code alteration while in debug mode. To avoid interference with CLI (Command Line-Interface) command while using the Flask.run() command, set the debug=True For further details on Flask Python and its attributes, see[https://pythonbasics.org/what-is-flask-python/]. 
 
-                                                  Curl 
+                                                  Curl
+                                                  
 Curl is command line tool and library for transferring data with URLs. It is used in Command lines or scripts to transfer data. HTTP Cookies, HTTP/2, HTTP3, URL Syntax and WebSocket are some of protocols and formats used by Curl (curl.se, 2024). For more info: [https://curl.se/docs/] ; [https://curl.se/docs/]
 
                                                   PythonAnywhere
+                                                  
 PythonAnywhere can be defined as a web-based Python development environment that can be used and accessed from any device by means of a browser [https://www.pythonanywhere.com/about/company_details/]
 
 
