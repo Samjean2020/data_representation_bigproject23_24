@@ -28,6 +28,8 @@ Go to: http://jsbb.pythonanywhere.com, click on PythonAnywhere on the welcoming 
                                                   
                                                   REST API 
 REST stands for Representation State Transfer. It is an architectural approach relating to distributed hypermedia structure. It is widely utilised for building web-based APIs (Application Programming Interfaces). REST does not fit on a protocol framework as HTTP. REST has six guiding principles including Uniforme Interface, Client-Server, Stateless, Cacheable, Layered Systems and Code on Demand. Refer to REST API Tutorial for further details on each principle [https://restfulapi.net/].
+                                                  
+                                                  
                                                   Flask
                                                   
 Flask is a web framework and Python module dedicating for the development of web application. There is no ORM (Object Relational Manager) related to it, as it is a micro framework. A Web Framework or Web Application encapsulates libraries and packages relevant for the writing of applications regardless of protocol or thread management. Armin Ronacher, Pooco (an international Python Team) leader developed Flask based on Werkzeug, WSGI (Web Server Gateway Interface), and Jinja2 template engine [https://pythonbasics.org/what-is-flask-python/].
