@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+        <head>
+               <Title>UN Women Gender and Covid-19 Survey Report 2022</Title>
+               <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
+		 <style>
+               body{
+               background-color:white;
+               }
+
+               h1{
+               color:green;
+               text-align:center;
+               }
+			   
+			   h2{
+               color:blue;
+               text-align:center;
+               }
+			   
+			   
+               p{
+               font-family: verdana;
+               font-size: 20px;
+               }
+         </style>
+	   </head>	   
+	   
+		  <body>
+             
+              <h1><em><b>UN Women Gender Covid-19 Survey Report 2022: Creating a DataTable, Update + Delete</em></b></h1>
+              <div> <button>Create</button></div>
+              <div>
+              <table class="table">
+                <tr>
+                        <th>id</th>
+                        <th>Country</th>
+                        <th>Sexe</th>
+                        <th>Age</th>
+                        <th>Update</th>
+                        <th>Delete</th>
+                </tr>
+                <tr>
+                        <td>0</td>
+                        <td>Indonesia</td>
+                        <td>Male</td>
+                        <td>43</td>
+                        <td><button>Update</button></td>
+                        <td><button>Delete</button></td>
+
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Indonesia</td>
+                    <td>Female</td>
+                    <td>47</td>
+                    <td><button>Update</button></td>
+                    <td><button>Delete</button></td>
+
+                </tr>
+                <tr>
+                    <td>4350</td>
+                    <td>Kiribati</td>
+                    <td>Female</td>
+                    <td>35</td>
+                    <td><button>Update</button></td>
+                    <td><button>Delete</button></td>
+
+                </tr>
+								
+				<tr>
+                    <td>4351</td>
+                    <td>Kiribati</td>
+                    <td>Female</td>
+                    <td>19</td>
+                    <td><button>Update</button></td>
+                    <td><button>Delete</button></td>
+
+                </tr>	
+				
+				
+				<tr>
+                    <td>5550</td>
+                    <td>Pakistan</td>
+                    <td>Female</td>
+                    <td>55</td>
+                    <td><button>Update</button></td>
+                    <td><button>Delete</button></td>
+
+                </tr>	
+				
+				<tr>
+                    <td>5551</td>
+                    <td>Pakistan</td>
+                    <td>Male</td>
+                    <td>23</td>
+                    <td><button>Update</button></td>
+                    <td><button>Delete</button></td>
+
+                </tr>	
+				
+				<tr>
+                    <td>8370</td>
+                    <td>PNG(Papua New Guinea)</td>
+					<td>Female</td>
+                    <td>21</td>
+                    <td><button>Update</button></td>
+                    <td><button>Delete</button></td>
+
+                </tr>	
+				
+				
+				<tr>
+                    <td>8371</td>
+                    <td>PNG(Papua New Guinea)</td>
+					<td>Male</td>
+                    <td>34</td>
+                    <td><button>Update</button></td>
+                    <td><button>Delete</button></td>
+
+                </tr>	
+				
+				
+				<tr>
+                    <td>11990</td>
+                    <td>Samoa</td>
+					<td>Male</td>
+                    <td>53</td>
+                    <td><button>Update</button></td>
+                    <td><button>Delete</button></td>
+
+                </tr>	
+						
+				
+				<tr>
+                    <td>11991</td>
+                    <td>Samoa</td>
+					<td>Male</td>
+                    <td>32</td>
+                    <td><button>Update</button></td>
+                    <td><button>Delete</button></td>
+					
+				</tr>	
+				
+				<tr>
+                    <td>13993</td>
+                    <td>Solomon Island</td>
+					<td>Male</td>
+                    <td>32</td>
+                    <td><button>Update</button></td>
+                    <td><button>Delete</button></td>
+					
+				</tr>	
+				
+				<tr>
+                    <td>13994</td>
+                    <td>Solomon Island</td>
+					<td>Female</td>
+                    <td>26</td>
+                    <td><button>Update</button></td>
+                    <td><button>Delete</button></td>
+					
+				</tr>	
+				<tr>
+                    <td>17840</td>
+                    <td>Tonga</td>
+					<td>Female</td>
+                    <td>75</td>
+                    <td><button>Update</button></td>
+                    <td><button>Delete</button></td>
+					
+				</tr>	
+				
+							
+				<tr>
+                    <td>17841</td>
+                    <td>Tonga</td>
+					<td>Female</td>
+                    <td>40</td>
+                    <td><button>Update</button></td>
+                    <td><button>Delete</button></td>
+					
+				</tr>
+			</table>
+        </div>
+		
+						
+        <div>
+
+			<p><h2><em>UN Women Gender and Covid-19 Survey Report 2022: Creating a Form for CRUD Operations</em></h2></p>
+<!--Write code for each of CRUD operations.
+# Make an array of data from UN Women database.
+# Use index of each data entry as id, instead of their proper id, as some of them are not integer-type.
+GCdataset=[{"id":0, "Country":"Indonesia","Sexe":"Male", "Age": 43},    
+{"id":1, "Country":"Indonesia","Sexe":"Female", "Age": 47},                      
+{"id":4350, "Country":"Kiribati", "Sexe": "Female", "Age": 35},
+{"id":4351, "Country":"Kiribati", "Sexe": "Female", "Age": 19},                            
+{"id":5550, "Country":"Pakistan", "Sexe": "Female", "Age": 55},
+{"id":5551, "Country":"Pakistan", "Sexe": "Male", "Age":23},                    
+{"id":8370, "Country":"PNG(Papua New Guinea)","Sexe":"Female", "Age":21},
+{"id":8371, "Country":"PNG(Papua New Guinea)","Sexe":"Male", "Age": 34},          
+{"id":11990, "Country":"Samoa","Sexe":"Male", "Age":53},
+{"id":11991, "Country":"Samoa","Sexe":"Male", "Age": 32},                    
+{"id":13993, "Country":"Solomon Island", "Sexe": "Male", "Age":32},
+{"id":13994, "Country":"Solomon Island", "Sexe": "Female", "Age":26},          
+{"id":17840, "Country":"Tonga", "Sexe": "Female", "Age": 75},          
+{"id":17841, "Country":"Tonga", "Sexe": "Female", "Age": 40}]-->
+
+				<div id='myForm'>
+				
+                    id:<input type=num name=’id’/>
+                    Country:<input type=‘text’ name=’country’/>
+                    Male<input type='radio'name='gender'value=male id='Male'/>
+					Female<input type='radio'name='gender'value=female id='Female'/>
+					Age:<input type=‘text’ name=’age’/> <br/>
+                    <button onclick=’doForm()’>create</button>
+					<button onclick=’doForm()’>read</button>
+					<button onclick=’doForm()’>update</button>
+					<button onclick=’doForm()’>delete</button> 
+					<input type='submit'value=hit here! id='submit'/><br/>
+					
+                </div>
+                
+				<script>
+                   Function doForm(){ 
+                        var gcdataset = {}
+                        var form = document.getElemtById(‘myForm’)
+                        gcdataset.idNumber = form.querySelector(’input[name=’idNumber’].value
+                        gcdataset.countryName = form.querySelector(’input[name=’countryName’].value
+                        gcdataset.sexeType = form.querySelector(’input[name=’sexeType’].value
+                        gcdataset.ageType = form.querySelector(’input[name=’ageType’].value
+						console.log(‘form data’+ JSON.stringfy(gcdataset))}
+
+                </script>
+				
+          </body>
+		
+</html>
